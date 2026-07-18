@@ -1,0 +1,25 @@
+ADB devices:
+List of devices attached
+
+
+当前状态：
+device_state=unlocked
+verifiedbootstate=orange
+veritymode=eio
+
+重启到 bootloader/fastboot...
+等待 fastboot。若看到 Select Boot Mode，请选 Fastboot Mode。
+.
+R85H694PPFAAUKHM	 fastboot
+
+刷入顶层 vbmeta disable flags。
+Rewriting vbmeta struct at offset: 0
+Sending 'vbmeta' (8192 KB)                         OKAY [  0.203s]
+Writing 'vbmeta'                                   OKAY [  0.017s]
+Finished. Total time: 0.227s
+
+重启。
+Rebooting                                          OKAY [  0.000s]
+Finished. Total time: 0.000s
+
+FLASH_VBMETA_FLAGS_OK
