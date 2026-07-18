@@ -1,0 +1,3 @@
+这些脚本原始运行时依赖：/private/tmp/mtk-unlock-pfgm00.vdYyHq/mtkclient
+本备份包已复制一份到：tools/mtkclient
+如果未来 /private/tmp 被清理，可以把 scripts/00_env.zsh 里的 A93S_MTK_DIR 改成备份包内 tools/mtkclient 的绝对路径。
